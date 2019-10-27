@@ -127,6 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+p {
+  line-height: 1.5;
+}
 .nav {
   display: flex;
   width: 100%;
@@ -141,10 +144,11 @@ table {
   font-size: 1.6rem;
 }
 .hero {
-  height: 50vh;
+  height: 100%;
   background-color: #5f4842;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 .hero-left {
   width: 40%;
@@ -176,8 +180,39 @@ table {
   box-shadow: 5px 5px 5px gray;
 }
 .about-us {
-  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
   background-color: #af8d86;
+}
+.about-us h2 {
+  font-size: 3.6rem;
+  margin: 20px 0 20px 0;
+}
+.about-us .about-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-us .about-box {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+.about-us .about-box img {
+  width: 75%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.about-us .about-box h3 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+.about-us .about-box p {
+  font-size: 1.4rem;
+  padding-bottom: 30px;
 }
 .menu {
   height: 40vh;

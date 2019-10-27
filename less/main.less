@@ -142,6 +142,10 @@ table {
     border-spacing: 0;
 }
 
+p{
+    line-height: 1.5;
+}
+
 .nav {
     display: flex;
     width: 100%;
@@ -158,10 +162,11 @@ table {
 }
 
 .hero {
-    height: 50vh;
+    height: 100%;
     background-color: @color3;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .hero-left{
@@ -196,8 +201,39 @@ table {
 }
 
 .about-us {
-    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
     background-color: @color4;
+    h2{
+        font-size: 3.6rem;
+        margin: 20px 0 20px 0;
+    }
+    .about-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-box{
+        img{
+            width: 75%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        h3{
+            text-align: center;
+            font-size: 2.4rem;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 1.4rem;
+            padding-bottom: 30px;
+        }
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+    }
 }
 
 .menu {
