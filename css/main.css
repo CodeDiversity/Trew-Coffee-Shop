@@ -209,10 +209,13 @@ p {
   text-align: center;
   font-size: 2.4rem;
   margin-bottom: 20px;
+  color: #4b4e6d;
+  font-weight: bolder;
 }
 .about-us .about-box p {
   font-size: 1.4rem;
   padding-bottom: 30px;
+  color: #4b4e6d;
 }
 .menu {
   height: 40vh;
