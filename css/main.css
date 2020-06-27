@@ -170,6 +170,7 @@ p {
   width: 50%;
 }
 .hero-right {
+  margin-top: 10px;
   width: 60%;
   display: flex;
   justify-content: center;
